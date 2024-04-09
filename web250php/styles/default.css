@@ -1,0 +1,295 @@
+:root {
+    --color-gold: rgb(167, 137, 3);
+    --color-lavander: rgb(151, 133, 229);
+    --color-darkgold: rgb(115, 83, 3);
+    --color-brown: rgb(72, 53, 1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Franklin Gothic large;
+    color:rgb(72, 53, 1);
+}
+/*----------------*/
+/* HTML elements */
+
+header {
+    text-align: center;
+    min-height: 10vh;
+    max-height: 10vh;
+    height: 10vh;
+}
+
+body {                
+    background: #e0e0f8;
+    position: relative;  
+}
+
+h1 {
+    font-weight: bold;
+   
+}
+
+main {
+    min-height: 75vh; 
+    text-align: center;
+    height: 75vh;
+    max-height: 75vh;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid var(--color-gold);
+    background-color: var(--color-lavander);
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+    position: fixed;
+}
+
+/* -------------------- */
+
+/* Class */
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none; 
+    width: 33.3%;
+    text-align: center;
+    height: 100%;
+    text-transform: capitalize;
+    color: var(--color-brown);  
+}
+
+.link:hover {
+    color: var(--color-brown);
+    background-color: var(--color-lavander);   
+}
+
+.active {
+    background-color: rgb(134, 115, 218);
+} 
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navheader {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    font-size: x-large;
+    height: 50px;
+    margin: 15px;
+    background: var(--color-lavander);
+    width: 100vw;
+    overflow: hidden;
+    position: fixed;
+    border: none;
+}
+
+.divintro {
+    color: var(--color-brown);
+}
+
+.divfirst {
+    align-items: center;
+}
+
+.container-contract {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle-contract {
+    height: 20%;
+}
+
+.contract {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
+    border: 1px solid  var(--color-gold);; 
+    border-radius: 30px;
+    box-shadow: 3px 0px 3px 3px #898888;
+    line-height: 1.4;
+    display: flex;
+    width: 100vw; 
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;  
+    height: 400px;
+}
+
+.contract p a {
+    color: var(--color-darkgold);
+}
+ 
+.brand {
+    font-size: x-large;
+    border: none;
+    box-shadow: none;
+    max-width: 1000px; 
+}
+
+.brand p {
+    font-size: 20px;
+}
+
+.scheme {
+    margin-top: 30px;
+}
+
+.courses {
+    margin-left: 20px;
+}
+
+.brand ul li {
+    margin-top: 20px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.paragraph {
+    margin-top: 20px;
+    color: rgb(72, 53, 1);
+}
+
+.navfooter ul li {
+    display: inline;
+    padding: 3px; 
+}
+
+.navfooter a {
+    text-decoration: none;
+    color: var(--color-brown);  
+}
+
+.title-main {
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+    color: rgb(72, 53, 1);
+}
+
+.container-main {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container-main a {
+    text-decoration: none;
+    color:rgb(2, 2, 2);
+}
+
+.container-main p {
+    margin-top: 20px;
+    font-size:x-large;
+}
+
+.intro {
+    margin-top: 200px;
+}
+
+.intro a {
+    text-decoration: underline;
+    color: var(--color-darkgold);
+}
+
+.formatation {
+    width: 100%;
+    border-bottom: 1px solid var(--color-lavander);
+    border-top: 1px solid var(--color-gold);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.t2 {
+    margin-top: 20px;   
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image figure img {
+    width: 180px;
+    border-radius: 25px;
+}
+
+.content-introduction {
+    padding: 20px;
+}
+
+.container-itens-introduction {
+   
+    height: 100%;
+    border-right: 2px solid var(--color-gold);
+    border-bottom: 2px solid var(--color-gold);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    text-align: left;
+    line-height: 1.4;  
+    margin-top: 10px;
+    font-size: large;
+    color:rgb(72, 53, 1);
+}
+
+.hikinglover {
+    font-style: italic;
+}
+
+.linefooter {
+    height: 33.33%;
+}
+
+.author {
+    font-size: small;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-style: italic;
+}
+
+.footercontainer {
+    bottom: 0;
+    position: fixed;
+    height: 10vh;
+}
+
+/* -------------------- */
+/* Id */
+#mainbrand h1 {
+    text-align: center;
+}
+
+#logo {
+    background: url("../images/logo2.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: 150px;
+    position: fixed;
+    left: 30px;
+    top: 0;
+    width: 150px;
+    margin-top: 50px;
+    padding-top: 0;
+    border-radius: 50%;
+}
+
+
